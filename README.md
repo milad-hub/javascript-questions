@@ -4,7 +4,7 @@
 
 ## 📚 فهرست مطالب
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 ### 📘 مباحث جاوا اسکریپت
 - [مباحث پایه‌ای](#مباحث-پایهای)
@@ -33,7 +33,7 @@
 ### مباحث پایه‌ای
 [مشاهده فایل](FA/01-basic.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 - معرفی جاوا اسکریپت
 - انواع داده‌ها و متغیرها
@@ -46,7 +46,7 @@
 ### مباحث متوسط
 [مشاهده فایل](FA/02-intermediate.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 - توابع و حوزه متغیرها
 - کار با آرایه‌ها و اشیاء
@@ -59,7 +59,7 @@
 ### مباحث پیشرفته
 [مشاهده فایل](FA/03-advance.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 - برنامه‌نویسی شیء‌گرا
 - مدیریت حافظه و بهینه‌سازی
@@ -76,7 +76,7 @@
 ### مباحث ES5 - 2009
 [مشاهده فایل](FA/04-ES5-2009.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES5:
 - ["use strict" و مزایای اون](FA/04-ES5-2009.md#use-strict-در-جاوا-اسکریپت)
@@ -92,7 +92,7 @@
 ### مباحث ES6 - 2015
 [مشاهده فایل](FA/05-ES6-2015.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES6:
 - [کلمه کلیدی let و const](FA/05-ES6-2015.md#کلمه-کلیدی-let-در-جاوا-اسکریپت)
@@ -110,7 +110,7 @@
 ### مباحث ES7 - 2016
 [مشاهده فایل](FA/06-ES7-2016.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES7:
 - [عملگر توان (**)](FA/06-ES7-2016.md#عملگر-توان-در-جاوا-اسکریپت)
@@ -122,7 +122,7 @@
 ### مباحث ES8 - 2017
 [مشاهده فایل](FA/07-ES8-2017.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES8:
 - [پدینگ رشته (padStart و padEnd)](FA/07-ES8-2017.md#پدینگ-رشته-در-جاوا-اسکریپت)
@@ -135,7 +135,7 @@
 ### مباحث ES9 - 2018
 [مشاهده فایل](FA/08-ES9-2018.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES9:
 - [حلقه Asynchronous Iteration](FA/08-ES9-2018.md#حلقه-asynchronous-iteration)
@@ -148,7 +148,7 @@
 ### مباحث ES10 - 2019
 [مشاهده فایل](FA/09-ES10-2019.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES10:
 - [متدهای String.prototype.trimStart و trimEnd](FA/09-ES10-2019.md#متدهای-stringprototypetrimstart-و-stringprototypetrimend)
@@ -161,7 +161,7 @@
 ### مباحث ES11 - 2020
 [مشاهده فایل](FA/10-ES11-2020.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES11:
 - [BigInt](FA/10-ES11-2020.md#ویژگی-bigint)
@@ -174,7 +174,7 @@
 ### مباحث ES12 - 2021
 [مشاهده فایل](FA/11-ES12-2021.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES12:
 - [متد Promise.any](FA/11-ES12-2021.md#متد-promiseany)
@@ -186,7 +186,7 @@
 ### مباحث ES13 - 2022
 [مشاهده فایل](FA/12-ES13-2022.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES13:
 - [متد Array.at و String.at](FA/12-ES13-2022.md#متد-arrayat-و-stringat)
@@ -198,7 +198,7 @@
 ### مباحث ES14 - 2023
 [مشاهده فایل](FA/13-ES14-2023.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES14:
 - [متد Array.findLast](FA/13-ES14-2023.md#متد-arrayfindlast)
@@ -210,7 +210,7 @@
 ### مباحث ES15 - 2024
 [مشاهده فایل](FA/14-ES15-2024.md)
 
-<div style="text-align: right;" dir="RTL">
+<div dir="rtl">
 
 موضوعات ES15:
 - [متد Object.groupBy](FA/14-ES15-2024.md#متد-objectgroupby)
