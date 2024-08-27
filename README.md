@@ -4,14 +4,13 @@
 
 ## 📚 فهرست مطالب
 
-<div dir="rtl">
-
 ### 📘 مباحث جاوا اسکریپت
-- [مباحث پایه‌ای](#مباحث-پایهای)
-- [مباحث متوسط](#مباحث-متوسط)
-- [مباحث پیشرفته](#مباحث-پیشرفته)
 
-</div>
+<ul dir="rtl">
+  <li><a href="#مباحث-پایهای">مباحث پایه‌ای</a></li>
+  <li><a href="#مباحث-متوسط">مباحث متوسط</a></li>
+  <li><a href="#مباحث-پیشرفته">مباحث پیشرفته</a></li>
+</ul>
 
 ### 🧩 ویژگی‌های ECMAScript
 <ul dir="rtl">
@@ -35,41 +34,35 @@
 ### مباحث پایه‌ای
 [مشاهده فایل](FA/01-basic.md)
 
-<div dir="rtl">
-
-- معرفی جاوا اسکریپت
-- انواع داده‌ها و متغیرها
-- عملگرها و عبارات
-- ساختارهای شرطی
-- حلقه‌ها
-
-</div>
+<ul dir="rtl">
+  <li>معرفی جاوا اسکریپت</li>
+  <li>انواع داده‌ها و متغیرها</li>
+  <li>عملگرها و عبارات</li>
+  <li>ساختارهای شرطی</li>
+  <li>حلقه‌ها</li>
+</ul>
 
 ### مباحث متوسط
 [مشاهده فایل](FA/02-intermediate.md)
 
-<div dir="rtl">
-
-- توابع و حوزه متغیرها
-- کار با آرایه‌ها و اشیاء
-- مدیریت خطاها
-- مفهوم callback و Promise
-- آشنایی با DOM و BOM
-
-</div>
+<ul dir="rtl">
+  <li>توابع و حوزه متغیرها</li>
+  <li>کار با آرایه‌ها و اشیاء</li>
+  <li>مدیریت خطاها</li>
+  <li>مفهوم callback و Promise</li>
+  <li>آشنایی با DOM و BOM</li>
+</ul>
 
 ### مباحث پیشرفته
 [مشاهده فایل](FA/03-advance.md)
 
-<div dir="rtl">
-
-- برنامه‌نویسی شیء‌گرا
-- مدیریت حافظه و بهینه‌سازی
-- متدهای پیشرفته کار با آرایه‌ها و رشته‌ها
-- معرفی و استفاده از `async/await`
-- مفاهیم ماژولاریتی و مدیریت ماژول‌ها
-
-</div>
+<ul dir="rtl">
+  <li>برنامه‌نویسی شیء‌گرا</li>
+  <li>مدیریت حافظه و بهینه‌سازی</li>
+  <li>متدهای پیشرفته کار با آرایه‌ها و رشته‌ها</li>
+  <li>معرفی و استفاده از <code>async/await</code></li>
+  <li>مفاهیم ماژولاریتی و مدیریت ماژول‌ها</li>
+</ul>
 
 ---
 
@@ -78,145 +71,123 @@
 ### مباحث ES5 - 2009
 [مشاهده فایل](FA/04-ES5-2009.md)
 
-<div dir="rtl">
-
 موضوعات ES5:
-- ["use strict" و مزایای اون](FA/04-ES5-2009.md#use-strict-در-جاوا-اسکریپت)
-- [دسترسی به کاراکترهای رشته با استفاده از ایندکس](FA/04-ES5-2009.md#دسترسی-به-کاراکترهای-رشته-با-استفاده-از-ایندکس)
-- [رشته‌های چند خطی](FA/04-ES5-2009.md#رشته‌های-چند-خطی)
-- [استفاده از کلمات رزرو شده به عنوان نام ویژگی](FA/04-ES5-2009.md#استفاده-از-کلمات-رزرو-شده-به-عنوان-نام-ویژگی)
-- [متدهای جدید String و Array](FA/04-ES5-2009.md#متدهای-جدید-string-و-array)
-- [معرفی JSON و متدهای مرتبط](FA/04-ES5-2009.md#معرفی-json-و-متدهای-مرتبط)
-- [ویژگی‌های جدید Object و متدهای اون‌ها](FA/04-ES5-2009.md#ویژگی‌های-جدید-object-و-متدهای-آنها)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/04-ES5-2009.md#use-strict-در-جاوا-اسکریپت">"use strict" و مزایای اون</a></li>
+  <li><a href="FA/04-ES5-2009.md#دسترسی-به-کاراکترهای-رشته-با-استفاده-از-ایندکس">دسترسی به کاراکترهای رشته با استفاده از ایندکس</a></li>
+  <li><a href="FA/04-ES5-2009.md#رشته‌های-چند-خطی">رشته‌های چند خطی</a></li>
+  <li><a href="FA/04-ES5-2009.md#استفاده-از-کلمات-رزرو-شده-به-عنوان-نام-ویژگی">استفاده از کلمات رزرو شده به عنوان نام ویژگی</a></li>
+  <li><a href="FA/04-ES5-2009.md#متدهای-جدید-string-و-array">متدهای جدید String و Array</a></li>
+  <li><a href="FA/04-ES5-2009.md#معرفی-json-و-متدهای-مرتبط">معرفی JSON و متدهای مرتبط</a></li>
+  <li><a href="FA/04-ES5-2009.md#ویژگی‌های-جدید-object-و-متدهای-آنها">ویژگی‌های جدید Object و متدهای آن‌ها</a></li>
+</ul>
 
 ### مباحث ES6 - 2015
 [مشاهده فایل](FA/05-ES6-2015.md)
 
-<div dir="rtl">
-
 موضوعات ES6:
-- [کلمه کلیدی let و const](FA/05-ES6-2015.md#کلمه-کلیدی-let-در-جاوا-اسکریپت)
-- [توابع پیکانی (Arrow Functions)](FA/05-ES6-2015.md#توابع-پیکانی-arrow-functions)
-- [تخریب شیء و آرایه (Destructuring)](FA/05-ES6-2015.md#تخریب-شیء-و-آرایه-object-destructuring)
-- [عملگر Spread](FA/05-ES6-2015.md#عملگر-spread)
-- [حلقه For/of](FA/05-ES6-2015.md#حلقه-forof)
-- [کلاس‌ها و استفاده از اون‌ها](FA/05-ES6-2015.md#کلاس‌ها-در-جاوا-اسکریپت)
-- [وعده‌ها (Promises)](FA/05-ES6-2015.md#وعده‌ها-promises-در-جاوا-اسکریپت)
-- [نوع داده Symbol](FA/05-ES6-2015.md#نوع-داده-symbol)
-- [پارامترهای پیش‌فرض و Rest](FA/05-ES6-2015.md#پارامترهای-پیش‌فرض-تو-توابع)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/05-ES6-2015.md#کلمه-کلیدی-let-در-جاوا-اسکریپت">کلمه کلیدی let و const</a></li>
+  <li><a href="FA/05-ES6-2015.md#توابع-پیکانی-arrow-functions">توابع پیکانی (Arrow Functions)</a></li>
+  <li><a href="FA/05-ES6-2015.md#تخریب-شیء-و-آرایه-object-destructuring">تخریب شیء و آرایه (Destructuring)</a></li>
+  <li><a href="FA/05-ES6-2015.md#عملگر-spread">عملگر Spread</a></li>
+  <li><a href="FA/05-ES6-2015.md#حلقه-forof">حلقه For/of</a></li>
+  <li><a href="FA/05-ES6-2015.md#کلاس‌ها-در-جاوا-اسکریپت">کلاس‌ها و استفاده از اون‌ها</a></li>
+  <li><a href="FA/05-ES6-2015.md#وعده‌ها-promises-در-جاوا-اسکریپت">وعده‌ها (Promises)</a></li>
+  <li><a href="FA/05-ES6-2015.md#نوع-داده-symbol">نوع داده Symbol</a></li>
+  <li><a href="FA/05-ES6-2015.md#پارامترهای-پیش‌فرض-تو-توابع">پارامترهای پیش‌فرض و Rest</a></li>
+</ul>
 
 ### مباحث ES7 - 2016
 [مشاهده فایل](FA/06-ES7-2016.md)
 
-<div dir="rtl">
-
 موضوعات ES7:
-- [عملگر توان (**)](FA/06-ES7-2016.md#عملگر-توان-در-جاوا-اسکریپت)
-- [عملگر اختصاص توان (**=)](FA/06-ES7-2016.md#عملگر-اختصاص-توان)
-- [متد Array.includes](FA/06-ES7-2016.md#متد-arrayincludes)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/06-ES7-2016.md#عملگر-توان-در-جاوا-اسکریپت">عملگر توان (**)</a></li>
+  <li><a href="FA/06-ES7-2016.md#عملگر-اختصاص-توان">عملگر اختصاص توان (**=)</a></li>
+  <li><a href="FA/06-ES7-2016.md#متد-arrayincludes">متد Array.includes</a></li>
+</ul>
 
 ### مباحث ES8 - 2017
 [مشاهده فایل](FA/07-ES8-2017.md)
 
-<div dir="rtl">
-
 موضوعات ES8:
-- [پدینگ رشته (padStart و padEnd)](FA/07-ES8-2017.md#پدینگ-رشته-در-جاوا-اسکریپت)
-- [متد Object.entries و Object.values](FA/07-ES8-2017.md#متد-objectentries-و-objectvalues)
-- [سینتکس async/await](FA/07-ES8-2017.md#سینتکس-asyncawait)
-- [کاماهای پایانی در توابع](FA/07-ES8-2017.md#کاماهای-پایانی-در-توابع)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/07-ES8-2017.md#پدینگ-رشته-در-جاوا-اسکریپت">پدینگ رشته (padStart و padEnd)</a></li>
+  <li><a href="FA/07-ES8-2017.md#متد-objectentries-و-objectvalues">متد Object.entries و Object.values</a></li>
+  <li><a href="FA/07-ES8-2017.md#سینتکس-asyncawait">سینتکس async/await</a></li>
+  <li><a href="FA/07-ES8-2017.md#کاماهای-پایانی-در-توابع">کاماهای پایانی در توابع</a></li>
+</ul>
 
 ### مباحث ES9 - 2018
 [مشاهده فایل](FA/08-ES9-2018.md)
 
-<div dir="rtl">
-
 موضوعات ES9:
-- [حلقه Asynchronous Iteration](FA/08-ES9-2018.md#حلقه-asynchronous-iteration)
-- [متد Promise.prototype.finally](FA/08-ES9-2018.md#متد-promisefinally)
-- [ویژگی‌های Object Rest](FA/08-ES9-2018.md#ویژگی‌های-object-rest)
-- [ویژگی‌های جدید RegExp](FA/08-ES9-2018.md#ویژگی‌های-جدید-regexp)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/08-ES9-2018.md#حلقه-asynchronous-iteration">حلقه Asynchronous Iteration</a></li>
+  <li><a href="FA/08-ES9-2018.md#متد-promisefinally">متد Promise.prototype.finally</a></li>
+  <li><a href="FA/08-ES9-2018.md#ویژگی‌های-object-rest">ویژگی‌های Object Rest</a></li>
+  <li><a href="FA/08-ES9-2018.md#ویژگی‌های-جدید-regexp">ویژگی‌های جدید RegExp</a></li>
+</ul>
 
 ### مباحث ES10 - 2019
 [مشاهده فایل](FA/09-ES10-2019.md)
 
-<div dir="rtl">
-
 موضوعات ES10:
-- [متدهای String.prototype.trimStart و trimEnd](FA/09-ES10-2019.md#متدهای-stringprototypetrimstart-و-stringprototypetrimend)
-- [متد Object.fromEntries](FA/09-ES10-2019.md#متد-objectfromentries)
-- [ویژگی Optional Catch Binding](FA/09-ES10-2019.md#ویژگی-optional-catch-binding)
-- [متدهای Array.prototype.flat و flatMap](FA/09-ES10-2019.md#متدهای-arrayprototypeflat-و-arrayprototypeflatmap)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/09-ES10-2019.md#متدهای-stringprototypetrimstart-و-stringprototypetrimend">متدهای String.prototype.trimStart و trimEnd</a></li>
+  <li><a href="FA/09-ES10-2019.md#متد-objectfromentries">متد Object.fromEntries</a></li>
+  <li><a href="FA/09-ES10-2019.md#ویژگی-optional-catch-binding">ویژگی Optional Catch Binding</a></li>
+  <li><a href="FA/09-ES10-2019.md#متدهای-arrayprototypeflat-و-arrayprototypeflatmap">متدهای Array.prototype.flat و flatMap</a></li>
+</ul>
 
 ### مباحث ES11 - 2020
 [مشاهده فایل](FA/10-ES11-2020.md)
 
-<div dir="rtl">
-
 موضوعات ES11:
-- [BigInt](FA/10-ES11-2020.md#ویژگی-bigint)
-- [متد String.prototype.matchAll](FA/10-ES11-2020.md#متد-stringprototypematchall)
-- [عملگر Nullish Coalescing (??)](FA/10-ES11-2020.md#عملگر-nullish-coalescing)
-- [عملگر Optional Chaining (?.)](FA/10-ES11-2020.md#عملگر-optional-chaining)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/10-ES11-2020.md#ویژگی-bigint">BigInt</a></li>
+  <li><a href="FA/10-ES11-2020.md#متد-stringprototypematchall">متد String.prototype.matchAll</a></li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-nullish-coalescing">عملگر Nullish Coalescing (??)</a></li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-optional-chaining">عملگر Optional Chaining (?.)</a></li>
+</ul>
 
 ### مباحث ES12 - 2021
 [مشاهده فایل](FA/11-ES12-2021.md)
 
-<div dir="rtl">
-
 موضوعات ES12:
-- [متد Promise.any](FA/11-ES12-2021.md#متد-promiseany)
-- [متد replaceAll](FA/11-ES12-2021.md#متد-replaceall)
-- [جداکننده‌های عددی (`_`)](FA/11-ES12-2021.md#جداکننده‌های-عددی-)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/11-ES12-2021.md#متد-promiseany">متد Promise.any</a></li>
+  <li><a href="FA/11-ES12-2021.md#متد-replaceall">متد replaceAll</a></li>
+  <li><a href="FA/11-ES12-2021.md#جداکننده‌های-عددی-">جداکننده‌های عددی (`_`)</a></li>
+</ul>
 
 ### مباحث ES13 - 2022
 [مشاهده فایل](FA/12-ES13-2022.md)
 
-<div dir="rtl">
-
 موضوعات ES13:
-- [متد Array.at و String.at](FA/12-ES13-2022.md#متد-arrayat-و-stringat)
-- [فلگ d در RegExp](FA/12-ES13-2022.md#فلگ-d-در-regexp)
-- [متد Object.hasOwn](FA/12-ES13-2022.md#متد-objecthasown)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/12-ES13-2022.md#متد-arrayat-و-stringat">متد Array.at و String.at</a></li>
+  <li><a href="FA/12-ES13-2022.md#فلگ-d-در-regexp">فلگ d در RegExp</a></li>
+  <li><a href="FA/12-ES13-2022.md#متد-objecthasown">متد Object.hasOwn</a></li>
+</ul>
 
 ### مباحث ES14 - 2023
 [مشاهده فایل](FA/13-ES14-2023.md)
 
-<div dir="rtl">
-
 موضوعات ES14:
-- [متد Array.findLast](FA/13-ES14-2023.md#متد-arrayfindlast)
-- [متد Array.findLastIndex](FA/13-ES14-2023.md#متد-arrayfindlastindex)
-- [متد Array.toReversed](FA/13-ES14-2023.md#متد-arraytoreversed)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/13-ES14-2023.md#متد-arrayfindlast">متد Array.findLast</a></li>
+  <li><a href="FA/13-ES14-2023.md#متد-arrayfindlastindex">متد Array.findLastIndex</a></li>
+  <li><a href="FA/13-ES14-2023.md#متد-arraytoreversed">متد Array.toReversed</a></li>
+</ul>
 
 ### مباحث ES15 - 2024
 [مشاهده فایل](FA/14-ES15-2024.md)
 
-<div dir="rtl">
-
 موضوعات ES15:
-- [متد Object.groupBy](FA/14-ES15-2024.md#متد-objectgroupby)
-- [متد Map.groupBy](FA/14-ES15-2024.md#متد-mapgroupby)
-- [ویژگی‌های Temporal.PlainDate, PlainTime, PlainMonthDay, PlainYearMonth](FA/14-ES15-2024.md#ویژگی‌های-temporalplaindate-plaintime-plainmonthday-plainyearmonth)
-
-</div>
+<ul dir="rtl">
+  <li><a href="FA/14-ES15-2024.md#متد-objectgroupby">متد Object.groupBy</a></li>
+  <li><a href="FA/14-ES15-2024.md#متد-mapgroupby">متد Map.groupBy</a></li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی‌های-temporalplaindate-plaintime-plainmonthday-plainyearmonth">ویژگی‌های Temporal.PlainDate, PlainTime, PlainMonthDay, PlainYearMonth</a></li>
+</ul>
