@@ -1,193 +1,162 @@
-# سوالات جاوا اسکریپت
+# JavaScript Questions Repository
 
-تو این ریپازیتوری کلی فایل آموزشی درباره جاوا اسکریپت و ویژگی‌های مختلف نسخه‌های مختلف ECMAScript جمع‌آوری شده. هر فایل به صورت Markdown نوشته شده و با مثال‌های عملی، ویژگی‌ها و مفاهیم رو به طور کامل توضیح میده.
+This repository contains a collection of educational files on JavaScript and various ECMAScript features. Each file is written in Markdown format and provides a comprehensive explanation of the concepts and features with practical examples. The original content has been sourced from w3schools.com, and I have categorized and expanded upon these topics with additional explanations. Additionally, all content has been translated into Persian (Farsi) and included in this repository for ease of use.
 
-## 📚 فهرست مطالب
+برای دسترسی به محتوای فارسی، به فایل [README-FA.md](README-FA.md) مراجعه کنید.
 
-### 📘 مباحث جاوا اسکریپت
+## 📚 Table of Contents
 
-<ul dir="rtl">
-  <li><a href="#مباحث-پایهای">مباحث پایه‌ای</a></li>
-  <li><a href="#مباحث-متوسط">مباحث متوسط</a></li>
-  <li><a href="#مباحث-پیشرفته">مباحث پیشرفته</a></li>
-</ul>
+### 📘 JavaScript Topics
+- [Basic Topics](#basic-topics)
+- [Intermediate Topics](#intermediate-topics)
+- [Advanced Topics](#advanced-topics)
 
-### 🧩 ویژگی‌های ECMAScript
-<ul dir="rtl">
-  <li><a href="#مباحث-es5---2009">ES5 - 2009</a></li>
-  <li><a href="#مباحث-es6---2015">ES6 - 2015</a></li>
-  <li><a href="#مباحث-es7---2016">ES7 - 2016</a></li>
-  <li><a href="#مباحث-es8---2017">ES8 - 2017</a></li>
-  <li><a href="#مباحث-es9---2018">ES9 - 2018</a></li>
-  <li><a href="#مباحث-es10---2019">ES10 - 2019</a></li>
-  <li><a href="#مباحث-es11---2020">ES11 - 2020</a></li>
-  <li><a href="#مباحث-es12---2021">ES12 - 2021</a></li>
-  <li><a href="#مباحث-es13---2022">ES13 - 2022</a></li>
-  <li><a href="#مباحث-es14---2023">ES14 - 2023</a></li>
-  <li><a href="#مباحث-es15---2024">ES15 - 2024</a></li>
-</ul>
+### 🧩 ECMAScript Features
+- [ES5 - 2009](#es5---2009-topics)
+- [ES6 - 2015](#es6---2015-topics)
+- [ES7 - 2016](#es7---2016-topics)
+- [ES8 - 2017](#es8---2017-topics)
+- [ES9 - 2018](#es9---2018-topics)
+- [ES10 - 2019](#es10---2019-topics)
+- [ES11 - 2020](#es11---2020-topics)
+- [ES12 - 2021](#es12---2021-topics)
+- [ES13 - 2022](#es13---2022-topics)
+- [ES14 - 2023](#es14---2023-topics)
+- [ES15 - 2024](#es15---2024-topics)
 
 ---
 
-## 📘 مباحث جاوا اسکریپت
+## 📘 JavaScript Topics
 
-### مباحث پایه‌ای
-[مشاهده فایل](FA/01-basic.md)
+### Basic Topics
+[View File](EN/01-basic.md)
 
-<ul dir="rtl">
-  <li>معرفی جاوا اسکریپت</li>
-  <li>انواع داده‌ها و متغیرها</li>
-  <li>عملگرها و عبارات</li>
-  <li>ساختارهای شرطی</li>
-  <li>حلقه‌ها</li>
-</ul>
+- Introduction to JavaScript
+- Data Types and Variables
+- Operators and Expressions
+- Conditional Structures
+- Loops
 
-### مباحث متوسط
-[مشاهده فایل](FA/02-intermediate.md)
+### Intermediate Topics
+[View File](EN/02-intermediate.md)
 
-<ul dir="rtl">
-  <li>توابع و حوزه متغیرها</li>
-  <li>کار با آرایه‌ها و اشیاء</li>
-  <li>مدیریت خطاها</li>
-  <li>مفهوم callback و Promise</li>
-  <li>آشنایی با DOM و BOM</li>
-</ul>
+- Functions and Variable Scope
+- Working with Arrays and Objects
+- Error Handling
+- Understanding Callbacks and Promises
+- Introduction to DOM and BOM
 
-### مباحث پیشرفته
-[مشاهده فایل](FA/03-advance.md)
+### Advanced Topics
+[View File](EN/03-advance.md)
 
-<ul dir="rtl">
-  <li>برنامه‌نویسی شیء‌گرا</li>
-  <li>مدیریت حافظه و بهینه‌سازی</li>
-  <li>متدهای پیشرفته کار با آرایه‌ها و رشته‌ها</li>
-  <li>معرفی و استفاده از <code>async/await</code></li>
-  <li>مفاهیم ماژولاریتی و مدیریت ماژول‌ها</li>
-</ul>
+- Object-Oriented Programming
+- Memory Management and Optimization
+- Advanced Methods for Arrays and Strings
+- Using `async/await`
+- Concepts of Modularity and Module Management
 
 ---
 
-## 🧩 ویژگی‌های ECMAScript
+## 🧩 ECMAScript Features
 
-### مباحث ES5 - 2009
-[مشاهده فایل](FA/04-ES5-2009.md)
+### ES5 - 2009 Topics
+[View File](EN/04-ES5-2009.md)
 
-موضوعات ES5:
-<ul dir="rtl">
-  <li><a href="FA/04-ES5-2009.md#use-strict-در-جاوا-اسکریپت">"use strict" و مزایای اون</a></li>
-  <li><a href="FA/04-ES5-2009.md#دسترسی-به-کاراکترهای-رشته-با-استفاده-از-ایندکس">دسترسی به کاراکترهای رشته با استفاده از ایندکس</a></li>
-  <li><a href="FA/04-ES5-2009.md#رشته‌های-چند-خطی">رشته‌های چند خطی</a></li>
-  <li><a href="FA/04-ES5-2009.md#استفاده-از-کلمات-رزرو-شده-به-عنوان-نام-ویژگی">استفاده از کلمات رزرو شده به عنوان نام ویژگی</a></li>
-  <li><a href="FA/04-ES5-2009.md#متدهای-جدید-string-و-array">متدهای جدید String و Array</a></li>
-  <li><a href="FA/04-ES5-2009.md#معرفی-json-و-متدهای-مرتبط">معرفی JSON و متدهای مرتبط</a></li>
-  <li><a href="FA/04-ES5-2009.md#ویژگی‌های-جدید-object-و-متدهای-آنها">ویژگی‌های جدید Object و متدهای آن‌ها</a></li>
-</ul>
+Key Topics in ES5:
+- ["use strict" and its advantages](EN/04-ES5-2009.md#use-strict-in-javascript)
+- [Accessing string characters using indexes](EN/04-ES5-2009.md#accessing-string-characters-using-indexes)
+- [Multi-line strings](EN/04-ES5-2009.md#multi-line-strings)
+- [Using reserved words as property names](EN/04-ES5-2009.md#using-reserved-words-as-property-names)
+- [New String and Array methods](EN/04-ES5-2009.md#stringtrim-method)
+- [Introduction to JSON and related methods](EN/04-ES5-2009.md#jsonparse-method)
+- [New Object features and methods](EN/04-ES5-2009.md#using-getters-and-setters)
 
-### مباحث ES6 - 2015
-[مشاهده فایل](FA/05-ES6-2015.md)
+### ES6 - 2015 Topics
+[View File](EN/05-ES6-2015.md)
 
-موضوعات ES6:
-<ul dir="rtl">
-  <li><a href="FA/05-ES6-2015.md#کلمه-کلیدی-let-در-جاوا-اسکریپت">کلمه کلیدی let و const</a></li>
-  <li><a href="FA/05-ES6-2015.md#توابع-پیکانی-arrow-functions">توابع پیکانی (Arrow Functions)</a></li>
-  <li><a href="FA/05-ES6-2015.md#تخریب-شیء-و-آرایه-object-destructuring">تخریب شیء و آرایه (Destructuring)</a></li>
-  <li><a href="FA/05-ES6-2015.md#عملگر-spread">عملگر Spread</a></li>
-  <li><a href="FA/05-ES6-2015.md#حلقه-forof">حلقه For/of</a></li>
-  <li><a href="FA/05-ES6-2015.md#کلاس‌ها-در-جاوا-اسکریپت">کلاس‌ها و استفاده از اون‌ها</a></li>
-  <li><a href="FA/05-ES6-2015.md#وعده‌ها-promises-در-جاوا-اسکریپت">وعده‌ها (Promises)</a></li>
-  <li><a href="FA/05-ES6-2015.md#نوع-داده-symbol">نوع داده Symbol</a></li>
-  <li><a href="FA/05-ES6-2015.md#پارامترهای-پیش‌فرض-تو-توابع">پارامترهای پیش‌فرض و Rest</a></li>
-</ul>
+Key Topics in ES6:
+- [let and const Keywords](EN/05-ES6-2015.md#let-keyword-in-javascript)
+- [Arrow Functions](EN/05-ES6-2015.md#arrow-functions)
+- [Object and Array Destructuring](EN/05-ES6-2015.md#object-destructuring)
+- [Spread Operator](EN/05-ES6-2015.md#spread-operator)
+- [For/of Loop](EN/05-ES6-2015.md#forof-loop)
+- [Classes and Their Usage](EN/05-ES6-2015.md#classes-in-javascript)
+- [Promises](EN/05-ES6-2015.md#promises-in-javascript)
+- [Symbol Data Type](EN/05-ES6-2015.md#symbol-data-type)
+- [Default and Rest Parameters](EN/05-ES6-2015.md#default-parameters-in-functions)
 
-### مباحث ES7 - 2016
-[مشاهده فایل](FA/06-ES7-2016.md)
+### ES7 - 2016 Topics
+[View File](EN/06-ES7-2016.md)
 
-موضوعات ES7:
-<ul dir="rtl">
-  <li><a href="FA/06-ES7-2016.md#عملگر-توان-در-جاوا-اسکریپت">عملگر توان (**)</a></li>
-  <li><a href="FA/06-ES7-2016.md#عملگر-اختصاص-توان">عملگر اختصاص توان (**=)</a></li>
-  <li><a href="FA/06-ES7-2016.md#متد-arrayincludes">متد Array.includes</a></li>
-</ul>
+Key Topics in ES7:
+- [Exponentiation Operator (**)](EN/06-ES7-2016.md#exponentiation-operator-in-javascript)
+- [Exponentiation Assignment Operator (**=)](EN/06-ES7-2016.md#exponentiation-assignment-operator)
+- [Array.includes Method](EN/06-ES7-2016.md#arrayincludes-method)
 
-### مباحث ES8 - 2017
-[مشاهده فایل](FA/07-ES8-2017.md)
+### ES8 - 2017 Topics
+[View File](EN/07-ES8-2017.md)
 
-موضوعات ES8:
-<ul dir="rtl">
-  <li><a href="FA/07-ES8-2017.md#پدینگ-رشته-در-جاوا-اسکریپت">پدینگ رشته (padStart و padEnd)</a></li>
-  <li><a href="FA/07-ES8-2017.md#متد-objectentries-و-objectvalues">متد Object.entries و Object.values</a></li>
-  <li><a href="FA/07-ES8-2017.md#سینتکس-asyncawait">سینتکس async/await</a></li>
-  <li><a href="FA/07-ES8-2017.md#کاماهای-پایانی-در-توابع">کاماهای پایانی در توابع</a></li>
-</ul>
+Key Topics in ES8:
+- [String Padding (padStart and padEnd)](EN/07-ES8-2017.md#string-padding-in-javascript)
+- [Object.entries and Object.values Methods](EN/07-ES8-2017.md#objectentries-method)
+- [Async/await Syntax](EN/07-ES8-2017.md#asyncawait-syntax)
+- [Trailing Commas in Functions](EN/07-ES8-2017.md#trailing-commas-in-functions)
 
-### مباحث ES9 - 2018
-[مشاهده فایل](FA/08-ES9-2018.md)
+### ES9 - 2018 Topics
+[View File](EN/08-ES9-2018.md)
 
-موضوعات ES9:
-<ul dir="rtl">
-  <li><a href="FA/08-ES9-2018.md#حلقه-asynchronous-iteration">حلقه Asynchronous Iteration</a></li>
-  <li><a href="FA/08-ES9-2018.md#متد-promisefinally">متد Promise.prototype.finally</a></li>
-  <li><a href="FA/08-ES9-2018.md#ویژگی‌های-object-rest">ویژگی‌های Object Rest</a></li>
-  <li><a href="FA/08-ES9-2018.md#ویژگی‌های-جدید-regexp">ویژگی‌های جدید RegExp</a></li>
-</ul>
+Key Topics in ES9:
+- [Asynchronous Iteration Loop](EN/08-ES9-2018.md#asynchronous-iteration-loop)
+- [Promise.prototype.finally Method](EN/08-ES9-2018.md#promiseprototypefinally-method)
+- [Object Rest Properties](EN/08-ES9-2018.md#object-rest-properties)
+- [New RegExp Features](EN/08-ES9-2018.md#new-regexp-features)
 
-### مباحث ES10 - 2019
-[مشاهده فایل](FA/09-ES10-2019.md)
+### ES10 - 2019 Topics
+[View File](EN/09-ES10-2019.md)
 
-موضوعات ES10:
-<ul dir="rtl">
-  <li><a href="FA/09-ES10-2019.md#متدهای-stringprototypetrimstart-و-stringprototypetrimend">متدهای String.prototype.trimStart و trimEnd</a></li>
-  <li><a href="FA/09-ES10-2019.md#متد-objectfromentries">متد Object.fromEntries</a></li>
-  <li><a href="FA/09-ES10-2019.md#ویژگی-optional-catch-binding">ویژگی Optional Catch Binding</a></li>
-  <li><a href="FA/09-ES10-2019.md#متدهای-arrayprototypeflat-و-arrayprototypeflatmap">متدهای Array.prototype.flat و flatMap</a></li>
-</ul>
+Key Topics in ES10:
+- [String.prototype.trimStart and trimEnd Methods](EN/09-ES10-2019.md#stringprototypetrimstart-and-stringprototypetrimend-methods)
+- [Object.fromEntries Method](EN/09-ES10-2019.md#objectfromentries-method)
+- [Optional Catch Binding](EN/09-ES10-2019.md#optional-catch-binding)
+- [Array.flat and Array.flatMap Methods](EN/09-ES10-2019.md#arrayprototypeflat-and-arrayprototypeflatmap-methods)
 
-### مباحث ES11 - 2020
-[مشاهده فایل](FA/10-ES11-2020.md)
+### ES11 - 2020 Topics
+[View File](EN/10-ES11-2020.md)
 
-موضوعات ES11:
-<ul dir="rtl">
-  <li><a href="FA/10-ES11-2020.md#ویژگی-bigint">BigInt</a></li>
-  <li><a href="FA/10-ES11-2020.md#متد-stringprototypematchall">متد String.prototype.matchAll</a></li>
-  <li><a href="FA/10-ES11-2020.md#عملگر-nullish-coalescing">عملگر Nullish Coalescing (??)</a></li>
-  <li><a href="FA/10-ES11-2020.md#عملگر-optional-chaining">عملگر Optional Chaining (?.)</a></li>
-</ul>
+Key Topics in ES11:
+- [BigInt](EN/10-ES11-2020.md#bigint-feature)
+- [String.prototype.matchAll Method](EN/10-ES11-2020.md#stringprototypematchall-method)
+- [Nullish Coalescing Operator (??)](EN/10-ES11-2020.md#nullish-coalescing-operator)
+- [Optional Chaining Operator (?.)](EN/10-ES11-2020.md#optional-chaining-operator)
 
-### مباحث ES12 - 2021
-[مشاهده فایل](FA/11-ES12-2021.md)
+### ES12 - 2021 Topics
+[View File](EN/11-ES12-2021.md)
 
-موضوعات ES12:
-<ul dir="rtl">
-  <li><a href="FA/11-ES12-2021.md#متد-promiseany">متد Promise.any</a></li>
-  <li><a href="FA/11-ES12-2021.md#متد-replaceall">متد replaceAll</a></li>
-  <li><a href="FA/11-ES12-2021.md#جداکننده‌های-عددی-">جداکننده‌های عددی (`_`)</a></li>
-</ul>
+Key Topics in ES12:
+- [Promise.any Method](EN/11-ES12-2021.md#promiseany-method)
+- [replaceAll Method](EN/11-ES12-2021.md#replaceall-method)
+- [Numeric Separators (_)](EN/11-ES12-2021.md#numeric-separators)
 
-### مباحث ES13 - 2022
-[مشاهده فایل](FA/12-ES13-2022.md)
+### ES13 - 2022 Topics
+[View File](EN/12-ES13-2022.md)
 
-موضوعات ES13:
-<ul dir="rtl">
-  <li><a href="FA/12-ES13-2022.md#متد-arrayat-و-stringat">متد Array.at و String.at</a></li>
-  <li><a href="FA/12-ES13-2022.md#فلگ-d-در-regexp">فلگ d در RegExp</a></li>
-  <li><a href="FA/12-ES13-2022.md#متد-objecthasown">متد Object.hasOwn</a></li>
-</ul>
+Key Topics in ES13:
+- [Array.at and String.at Methods](EN/12-ES13-2022.md#arrayat-method)
+- [d Flag in RegExp](EN/12-ES13-2022.md#d-flag-in-regexp)
+- [Object.hasOwn Method](EN/12-ES13-2022.md#objecthasown-method)
 
-### مباحث ES14 - 2023
-[مشاهده فایل](FA/13-ES14-2023.md)
+### ES14 - 2023 Topics
+[View File](EN/13-ES14-2023.md)
 
-موضوعات ES14:
-<ul dir="rtl">
-  <li><a href="FA/13-ES14-2023.md#متد-arrayfindlast">متد Array.findLast</a></li>
-  <li><a href="FA/13-ES14-2023.md#متد-arrayfindlastindex">متد Array.findLastIndex</a></li>
-  <li><a href="FA/13-ES14-2023.md#متد-arraytoreversed">متد Array.toReversed</a></li>
-</ul>
+Key Topics in ES14:
+- [Array.findLast Method](EN/13-ES14-2023.md#arrayfindlast-method)
+- [Array.findLastIndex Method](EN/13-ES14-2023.md#arrayfindlastindex-method)
+- [Array.toReversed Method](EN/13-ES14-2023.md#arraytoreversed-method)
 
-### مباحث ES15 - 2024
-[مشاهده فایل](FA/14-ES15-2024.md)
+### ES15 - 2024 Topics
+[View File](EN/14-ES15-2024.md)
 
-موضوعات ES15:
-<ul dir="rtl">
-  <li><a href="FA/14-ES15-2024.md#متد-objectgroupby">متد Object.groupBy</a></li>
-  <li><a href="FA/14-ES15-2024.md#متد-mapgroupby">متد Map.groupBy</a></li>
-  <li><a href="FA/14-ES15-2024.md#ویژگی‌های-temporalplaindate-plaintime-plainmonthday-plainyearmonth">ویژگی‌های Temporal.PlainDate, PlainTime, PlainMonthDay, PlainYearMonth</a></li>
-</ul>
+Key Topics in ES15:
+- [Object.groupBy Method](EN/14-ES15-2024.md#objectgroupby-method)
+- [Map.groupBy Method](EN/14-ES15-2024.md#mapgroupby-method)
+- [Temporal.PlainDate, PlainTime, PlainMonthDay, PlainYearMonth Features](EN/14-ES15-2024.md#temporalplaindate-feature)
