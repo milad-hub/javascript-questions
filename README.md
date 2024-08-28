@@ -67,9 +67,22 @@ Key Topics in ES5:
 - [Accessing string characters using indexes](EN/04-ES5-2009.md#accessing-string-characters-using-indexes)
 - [Multi-line strings](EN/04-ES5-2009.md#multi-line-strings)
 - [Using reserved words as property names](EN/04-ES5-2009.md#using-reserved-words-as-property-names)
-- [New String and Array methods](EN/04-ES5-2009.md#stringtrim-method)
-- [Introduction to JSON and related methods](EN/04-ES5-2009.md#jsonparse-method)
-- [New Object features and methods](EN/04-ES5-2009.md#using-getters-and-setters)
+- [String.trim Method](EN/04-ES5-2009.md#stringtrim-method)
+- [Array.isArray Method](EN/04-ES5-2009.md#arrayisarray-method)
+- [Array.forEach Method](EN/04-ES5-2009.md#arrayforeach-method)
+- [Array.map Method](EN/04-ES5-2009.md#arraymap-method)
+- [Array.filter Method](EN/04-ES5-2009.md#arrayfilter-method)
+- [Array.reduce and reduceRight Methods](EN/04-ES5-2009.md#arrayreduce-method)
+- [Array.every and some Methods](EN/04-ES5-2009.md#arrayevery-method)
+- [Array.indexOf and lastIndexOf Methods](EN/04-ES5-2009.md#arrayindexof-method)
+- [JSON.parse and JSON.stringify Methods](EN/04-ES5-2009.md#jsonparse-method)
+- [Date.now, toISOString, and toJSON Methods](EN/04-ES5-2009.md#datenow-method)
+- [Using Getters and Setters](EN/04-ES5-2009.md#using-getters-and-setters)
+- [Object.defineProperty Method](EN/04-ES5-2009.md#objectdefineproperty-method)
+- [Object.create Method](EN/04-ES5-2009.md#objectcreate-method)
+- [Object.keys Method](EN/04-ES5-2009.md#objectkeys-method)
+- [Function.bind Method](EN/04-ES5-2009.md#functionbind-method)
+- [Trailing Commas](EN/04-ES5-2009.md#trailing-commas)
 
 ### ES6 - 2015 Topics
 [View File](EN/05-ES6-2015.md)
@@ -80,10 +93,21 @@ Key Topics in ES6:
 - [Object and Array Destructuring](EN/05-ES6-2015.md#object-destructuring)
 - [Spread Operator](EN/05-ES6-2015.md#spread-operator)
 - [For/of Loop](EN/05-ES6-2015.md#forof-loop)
+- [Map Object](EN/05-ES6-2015.md#map-object)
+- [Set Object](EN/05-ES6-2015.md#set-object)
 - [Classes and Their Usage](EN/05-ES6-2015.md#classes-in-javascript)
 - [Promises](EN/05-ES6-2015.md#promises-in-javascript)
 - [Symbol Data Type](EN/05-ES6-2015.md#symbol-data-type)
-- [Default and Rest Parameters](EN/05-ES6-2015.md#default-parameters-in-functions)
+- [Default Parameters in Functions](EN/05-ES6-2015.md#default-parameters-in-functions)
+- [Rest Parameter in Functions](EN/05-ES6-2015.md#rest-parameter-in-functions)
+- [String.includes Method](EN/05-ES6-2015.md#stringincludes-method)
+- [String.startsWith and endsWith Methods](EN/05-ES6-2015.md#stringstartswith-method)
+- [Array.entries, from, and keys Methods](EN/05-ES6-2015.md#arrayentries-method)
+- [Array.find and findIndex Methods](EN/05-ES6-2015.md#arrayfind-method)
+- [New Math Methods](EN/05-ES6-2015.md#new-math-methods)
+- [New Number Features](EN/05-ES6-2015.md#new-number-features)
+- [New Global Methods](EN/05-ES6-2015.md#new-global-methods)
+- [Modules in JavaScript](EN/05-ES6-2015.md#modules-in-javascript)
 
 ### ES7 - 2016 Topics
 [View File](EN/06-ES7-2016.md)
@@ -101,6 +125,7 @@ Key Topics in ES8:
 - [Object.entries and Object.values Methods](EN/07-ES8-2017.md#objectentries-method)
 - [Async/await Syntax](EN/07-ES8-2017.md#asyncawait-syntax)
 - [Trailing Commas in Functions](EN/07-ES8-2017.md#trailing-commas-in-functions)
+- [Object.getOwnPropertyDescriptors Method](EN/07-ES8-2017.md#objectgetownpropertydescriptors-method)
 
 ### ES9 - 2018 Topics
 [View File](EN/08-ES9-2018.md)
@@ -110,6 +135,7 @@ Key Topics in ES9:
 - [Promise.prototype.finally Method](EN/08-ES9-2018.md#promiseprototypefinally-method)
 - [Object Rest Properties](EN/08-ES9-2018.md#object-rest-properties)
 - [New RegExp Features](EN/08-ES9-2018.md#new-regexp-features)
+- [Shared Memory in JavaScript](EN/08-ES9-2018.md#shared-memory-in-javascript)
 
 ### ES10 - 2019 Topics
 [View File](EN/09-ES10-2019.md)
@@ -119,6 +145,10 @@ Key Topics in ES10:
 - [Object.fromEntries Method](EN/09-ES10-2019.md#objectfromentries-method)
 - [Optional Catch Binding](EN/09-ES10-2019.md#optional-catch-binding)
 - [Array.flat and Array.flatMap Methods](EN/09-ES10-2019.md#arrayprototypeflat-and-arrayprototypeflatmap-methods)
+- [Revised Array.sort Feature](EN/09-ES10-2019.md#revised-arraysort-feature)
+- [Revised JSON.stringify Feature](EN/09-ES10-2019.md#revised-jsonstringify-feature)
+- [Use of Separators in String Literals](EN/09-ES10-2019.md#use-of-separators-in-string-literals)
+- [Revised Function.prototype.toString Method](EN/09-ES10-2019.md#revised-functionprototypetostring-method)
 
 ### ES11 - 2020 Topics
 [View File](EN/10-ES11-2020.md)
@@ -128,6 +158,11 @@ Key Topics in ES11:
 - [String.prototype.matchAll Method](EN/10-ES11-2020.md#stringprototypematchall-method)
 - [Nullish Coalescing Operator (??)](EN/10-ES11-2020.md#nullish-coalescing-operator)
 - [Optional Chaining Operator (?.)](EN/10-ES11-2020.md#optional-chaining-operator)
+- [Logical AND Assignment Operator (&&=)](EN/10-ES11-2020.md#logical-and-assignment-operator)
+- [Logical OR Assignment Operator (||=)](EN/10-ES11-2020.md#logical-or-assignment-operator)
+- [Nullish Coalescing Assignment Operator (??=)](EN/10-ES11-2020.md#nullish-coalescing-assignment-operator)
+- [Promise.allSettled Method](EN/10-ES11-2020.md#promiseallsettled-method)
+- [Dynamic Import Feature](EN/10-ES11-2020.md#dynamic-import-feature)
 
 ### ES12 - 2021 Topics
 [View File](EN/11-ES12-2021.md)
@@ -144,6 +179,10 @@ Key Topics in ES13:
 - [Array.at and String.at Methods](EN/12-ES13-2022.md#arrayat-method)
 - [d Flag in RegExp](EN/12-ES13-2022.md#d-flag-in-regexp)
 - [Object.hasOwn Method](EN/12-ES13-2022.md#objecthasown-method)
+- [error.cause Feature](EN/12-ES13-2022.md#errorcause-feature)
+- [await import Feature](EN/12-ES13-2022.md#await-import-feature)
+- [Class Field Declarations](EN/12-ES13-2022.md#class-field-declarations)
+- [Private Methods and Fields in Classes](EN/12-ES13-2022.md#private-methods-and-fields-in-classes)
 
 ### ES14 - 2023 Topics
 [View File](EN/13-ES14-2023.md)
@@ -152,6 +191,10 @@ Key Topics in ES14:
 - [Array.findLast Method](EN/13-ES14-2023.md#arrayfindlast-method)
 - [Array.findLastIndex Method](EN/13-ES14-2023.md#arrayfindlastindex-method)
 - [Array.toReversed Method](EN/13-ES14-2023.md#arraytoreversed-method)
+- [Array.toSorted Method](EN/13-ES14-2023.md#arraytosorted-method)
+- [Array.toSpliced Method](EN/13-ES14-2023.md#arraytospliced-method)
+- [Array.with Method](EN/13-ES14-2023.md#arraywith-method)
+- [#! (Shebang) Feature](EN/13-ES14-2023.md#-shebang-feature)
 
 ### ES15 - 2024 Topics
 [View File](EN/14-ES15-2024.md)
@@ -159,4 +202,7 @@ Key Topics in ES14:
 Key Topics in ES15:
 - [Object.groupBy Method](EN/14-ES15-2024.md#objectgroupby-method)
 - [Map.groupBy Method](EN/14-ES15-2024.md#mapgroupby-method)
-- [Temporal.PlainDate, PlainTime, PlainMonthDay, PlainYearMonth Features](EN/14-ES15-2024.md#temporalplaindate-feature)
+- [Temporal.PlainDate Feature](EN/14-ES15-2024.md#temporalplaindate-feature)
+- [Temporal.PlainTime Feature](EN/14-ES15-2024.md#temporalplaintime-feature)
+- [Temporal.PlainMonthDay Feature](EN/14-ES15-2024.md#temporalplainmonthday-feature)
+- [Temporal.PlainYearMonth Feature](EN/14-ES15-2024.md#temporalplainyearmonth-feature)

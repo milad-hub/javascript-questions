@@ -77,9 +77,22 @@
   <li><a href="FA/04-ES5-2009.md#دسترسی-به-کاراکترهای-رشته-با-استفاده-از-ایندکس">دسترسی به کاراکترهای رشته با استفاده از ایندکس</a></li>
   <li><a href="FA/04-ES5-2009.md#رشته‌های-چند-خطی">رشته‌های چند خطی</a></li>
   <li><a href="FA/04-ES5-2009.md#استفاده-از-کلمات-رزرو-شده-به-عنوان-نام-ویژگی">استفاده از کلمات رزرو شده به عنوان نام ویژگی</a></li>
-  <li><a href="FA/04-ES5-2009.md#متدهای-جدید-string-و-array">متدهای جدید String و Array</a></li>
-  <li><a href="FA/04-ES5-2009.md#معرفی-json-و-متدهای-مرتبط">معرفی JSON و متدهای مرتبط</a></li>
-  <li><a href="FA/04-ES5-2009.md#ویژگی‌های-جدید-object-و-متدهای-آنها">ویژگی‌های جدید Object و متدهای آن‌ها</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-trim-رشته">متد trim رشته</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayisarray">متد Array.isArray</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayforeach">متد Array.forEach</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arraymap">متد Array.map</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayfilter">متد Array.filter</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayreduce">متد Array.reduce</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayevery">متد Array.every</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayindexof">متد Array.indexOf</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-jsonparse">متد JSON.parse</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-datenow">متد Date.now</a></li>
+  <li><a href="FA/04-ES5-2009.md#استفاده-از-getters-و-setters">استفاده از Getters و Setters</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-objectdefineproperty">متد Object.defineProperty</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-objectcreate">متد Object.create</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-objectkeys">متد Object.keys</a></li>
+  <li><a href="FA/04-ES5-2009.md#متد-functionbind">متد Function.bind</a></li>
+  <li><a href="FA/04-ES5-2009.md#کاماهای-پایانی">کاماهای پایانی</a></li>
 </ul>
 
 ### مباحث ES6 - 2015
@@ -92,10 +105,24 @@
   <li><a href="FA/05-ES6-2015.md#تخریب-شیء-و-آرایه-object-destructuring">تخریب شیء و آرایه (Destructuring)</a></li>
   <li><a href="FA/05-ES6-2015.md#عملگر-spread">عملگر Spread</a></li>
   <li><a href="FA/05-ES6-2015.md#حلقه-forof">حلقه For/of</a></li>
+  <li><a href="FA/05-ES6-2015.md#اشیاء-map">شیء Map</a></li>
+  <li><a href="FA/05-ES6-2015.md#اشیاء-set">شیء Set</a></li>
   <li><a href="FA/05-ES6-2015.md#کلاس‌ها-در-جاوا-اسکریپت">کلاس‌ها و استفاده از اون‌ها</a></li>
   <li><a href="FA/05-ES6-2015.md#وعده‌ها-promises-در-جاوا-اسکریپت">وعده‌ها (Promises)</a></li>
   <li><a href="FA/05-ES6-2015.md#نوع-داده-symbol">نوع داده Symbol</a></li>
   <li><a href="FA/05-ES6-2015.md#پارامترهای-پیش‌فرض-تو-توابع">پارامترهای پیش‌فرض و Rest</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-stringincludes">متد String.includes</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-stringstartswith">متد String.startsWith</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-stringendswith">متد String.endsWith</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-arrayentries">متد Array.entries</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-arrayfrom">متد Array.from</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-arraykeys">متد Array.keys</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-arrayfind">متد Array.find</a></li>
+  <li><a href="FA/05-ES6-2015.md#متد-arrayfindindex">متد Array.findIndex</a></li>
+  <li><a href="FA/05-ES6-2015.md#متدهای-جدید-math">متدهای جدید Math</a></li>
+  <li><a href="FA/05-ES6-2015.md#ویژگی‌های-جدید-number">ویژگی‌های جدید Number</a></li>
+  <li><a href="FA/05-ES6-2015.md#متدهای-جدید-جهانی">متدهای جدید جهانی</a></li>
+  <li><a href="FA/05-ES6-2015.md#ماژول‌ها-در-جاوا-اسکریپت">ماژول‌ها در جاوا اسکریپت</a></li>
 </ul>
 
 ### مباحث ES7 - 2016
@@ -117,6 +144,7 @@
   <li><a href="FA/07-ES8-2017.md#متد-objectentries-و-objectvalues">متد Object.entries و Object.values</a></li>
   <li><a href="FA/07-ES8-2017.md#سینتکس-asyncawait">سینتکس async/await</a></li>
   <li><a href="FA/07-ES8-2017.md#کاماهای-پایانی-در-توابع">کاماهای پایانی در توابع</a></li>
+  <li><a href="FA/07-ES8-2017.md#متد-objectgetownpropertydescriptors">متد Object.getOwnPropertyDescriptors</a></li>
 </ul>
 
 ### مباحث ES9 - 2018
@@ -128,6 +156,7 @@
   <li><a href="FA/08-ES9-2018.md#متد-promisefinally">متد Promise.prototype.finally</a></li>
   <li><a href="FA/08-ES9-2018.md#ویژگی‌های-object-rest">ویژگی‌های Object Rest</a></li>
   <li><a href="FA/08-ES9-2018.md#ویژگی‌های-جدید-regexp">ویژگی‌های جدید RegExp</a></li>
+  <li><a href="FA/08-ES9-2018.md#حافظه-اشتراکی-در-جاوا-اسکریپت">حافظه اشتراکی در جاوا اسکریپت</a></li>
 </ul>
 
 ### مباحث ES10 - 2019
@@ -139,6 +168,10 @@
   <li><a href="FA/09-ES10-2019.md#متد-objectfromentries">متد Object.fromEntries</a></li>
   <li><a href="FA/09-ES10-2019.md#ویژگی-optional-catch-binding">ویژگی Optional Catch Binding</a></li>
   <li><a href="FA/09-ES10-2019.md#متدهای-arrayprototypeflat-و-arrayprototypeflatmap">متدهای Array.prototype.flat و flatMap</a></li>
+  <li><a href="FA/09-ES10-2019.md#ویژگی-revised-arraysort">ویژگی Revised Array.sort</a></li>
+  <li><a href="FA/09-ES10-2019.md#ویژگی-revised-jsonstringify">ویژگی Revised JSON.stringify</a></li>
+  <li><a href="FA/09-ES10-2019.md#استفاده-از-جداکننده-ها-در-لیترال‌های-رشته">استفاده از جداکننده‌ها در لیترال‌های رشته</a></li>
+  <li><a href="FA/09-ES10-2019.md#متد-revised-functionprototypetostring">متد Revised Function.prototype.toString</a></li>
 </ul>
 
 ### مباحث ES11 - 2020
@@ -150,6 +183,10 @@
   <li><a href="FA/10-ES11-2020.md#متد-stringprototypematchall">متد String.prototype.matchAll</a></li>
   <li><a href="FA/10-ES11-2020.md#عملگر-nullish-coalescing">عملگر Nullish Coalescing (??)</a></li>
   <li><a href="FA/10-ES11-2020.md#عملگر-optional-chaining">عملگر Optional Chaining (?.)</a></li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-اختصاصی-and-و-or">عملگرهای تخصیصی AND و OR (&&= و ||=)</a></li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-اختصاصی-nullish-coalescing">عملگر تخصیصی Nullish Coalescing (??=)</a></li>
+  <li><a href="FA/10-ES11-2020.md#متد-promiseallsettled">متد Promise.allSettled</a></li>
+  <li><a href="FA/10-ES11-2020.md#ویژگی-dynamic-import">ویژگی Dynamic Import</a></li>
 </ul>
 
 ### مباحث ES12 - 2021
@@ -170,6 +207,10 @@
   <li><a href="FA/12-ES13-2022.md#متد-arrayat-و-stringat">متد Array.at و String.at</a></li>
   <li><a href="FA/12-ES13-2022.md#فلگ-d-در-regexp">فلگ d در RegExp</a></li>
   <li><a href="FA/12-ES13-2022.md#متد-objecthasown">متد Object.hasOwn</a></li>
+  <li><a href="FA/12-ES13-2022.md#ویژگی-errorcause">ویژگی error.cause</a></li>
+  <li><a href="FA/12-ES13-2022.md#ویژگی-await-import">ویژگی await import</a></li>
+  <li><a href="FA/12-ES13-2022.md#اعلان-فیلدهای-کلاس">اعلان فیلدهای کلاس</a></li>
+  <li><a href="FA/12-ES13-2022.md#متدها-و-فیلدهای-خصوصی-در-کلاس‌ها">متدها و فیلدهای خصوصی در کلاس‌ها</a></li>
 </ul>
 
 ### مباحث ES14 - 2023
@@ -180,6 +221,10 @@
   <li><a href="FA/13-ES14-2023.md#متد-arrayfindlast">متد Array.findLast</a></li>
   <li><a href="FA/13-ES14-2023.md#متد-arrayfindlastindex">متد Array.findLastIndex</a></li>
   <li><a href="FA/13-ES14-2023.md#متد-arraytoreversed">متد Array.toReversed</a></li>
+  <li><a href="FA/13-ES14-2023.md#متد-arraysort">متد Array.sort</a></li>
+  <li><a href="FA/13-ES14-2023.md#متد-arraysplice">متد Array.splice</a></li>
+  <li><a href="FA/13-ES14-2023.md#متد-arraywith">متد Array.with</a></li>
+  <li><a href="FA/13-ES14-2023.md#ویژگی-shebang">ویژگی Shebang (#!)</a></li>
 </ul>
 
 ### مباحث ES15 - 2024
@@ -189,5 +234,8 @@
 <ul dir="rtl">
   <li><a href="FA/14-ES15-2024.md#متد-objectgroupby">متد Object.groupBy</a></li>
   <li><a href="FA/14-ES15-2024.md#متد-mapgroupby">متد Map.groupBy</a></li>
-  <li><a href="FA/14-ES15-2024.md#ویژگی‌های-temporalplaindate-plaintime-plainmonthday-plainyearmonth">ویژگی‌های Temporal.PlainDate, PlainTime, PlainMonthDay, PlainYearMonth</a></li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplaindate">ویژگی‌های Temporal.PlainDate</a></li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplaintime">ویژگی‌های Temporal.PlainTime</a></li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplainmonthday">ویژگی‌های Temporal.PlainMonthDay</a></li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplainyearmonth">ویژگی‌های Temporal.PlainYearMonth</a></li>
 </ul>
