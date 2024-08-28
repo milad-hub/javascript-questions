@@ -84,11 +84,17 @@ This repository contains a set of learning files about JavaScript and different 
   <li><a href="EN/04-ES5-2009.md#arrayforeach-method">Array.forEach Method</a>: Execute a function on each array element.</li>
   <li><a href="EN/04-ES5-2009.md#arraymap-method">Array.map Method</a>: Create a new array with the results of calling a function on every array element.</li>
   <li><a href="EN/04-ES5-2009.md#arrayfilter-method">Array.filter Method</a>: Create a new array with elements that pass a test.</li>
-  <li><a href="EN/04-ES5-2009.md#arrayreduce-method">Array.reduce and reduceRight Methods</a>: Execute a reducer function on each element, resulting in a single output value.</li>
-  <li><a href="EN/04-ES5-2009.md#arrayevery-method">Array.every and some Methods</a>: Test whether all or some elements pass a test.</li>
-  <li><a href="EN/04-ES5-2009.md#arrayindexof-method">Array.indexOf and lastIndexOf Methods</a>: Find the index of an element in an array.</li>
-  <li><a href="EN/04-ES5-2009.md#jsonparse-method">JSON.parse and JSON.stringify Methods</a>: Parse and stringify JSON data.</li>
-  <li><a href="EN/04-ES5-2009.md#datenow-method">Date.now, toISOString, and toJSON Methods</a>: Work with date and time.</li>
+  <li><a href="EN/04-ES5-2009.md#arrayreduce-method">Array.reduce Method</a>: Reduces array to a single value.</li>
+  <li><a href="EN/04-ES5-2009.md#arrayreduceright-method">Array.reduceRight Method</a>: Similar to reduce, but starts from the last element.</li>
+  <li><a href="EN/04-ES5-2009.md#arrayevery-method">Array.every Method</a>: Checks if all elements pass a test.</li>
+  <li><a href="EN/04-ES5-2009.md#arraysome-method">Array.some Method</a>: Checks if any element passes a test.</li>
+  <li><a href="EN/04-ES5-2009.md#arrayindexof-method">Array.indexOf Method</a>: Returns the first index of a specified element.</li>
+  <li><a href="EN/04-ES5-2009.md#arraylastindexof-method">Array.lastIndexOf Method</a>: Returns the last index of a specified element.</li>
+  <li><a href="EN/04-ES5-2009.md#jsonparse-method">JSON.parse Method</a>: Converts JSON string to JavaScript object.</li>
+  <li><a href="EN/04-ES5-2009.md#jsonstringify-method">JSON.stringify Method</a>: Converts JavaScript object to JSON string.</li>
+  <li><a href="EN/04-ES5-2009.md#datenow-method">Date.now Method</a>: Returns the current timestamp.</li>
+  <li><a href="EN/04-ES5-2009.md#datetoisostring-method">Date.toISOString Method</a>: Converts date to ISO format string.</li>
+  <li><a href="EN/04-ES5-2009.md#datetojson-method">Date.toJSON Method</a>: Converts date to JSON format.</li>
   <li><a href="EN/04-ES5-2009.md#using-getters-and-setters">Using Getters and Setters</a>: Control access to object properties.</li>
   <li><a href="EN/04-ES5-2009.md#objectdefineproperty-method">Object.defineProperty Method</a>: Define a new property directly on an object.</li>
   <li><a href="EN/04-ES5-2009.md#objectcreate-method">Object.create Method</a>: Create a new object with a specified prototype object and properties.</li>
@@ -101,9 +107,11 @@ This repository contains a set of learning files about JavaScript and different 
 [View File](EN/05-ES6-2015.md)
 
 <ul>
-  <li><a href="EN/05-ES6-2015.md#let-keyword-in-javascript">let and const Keywords</a>: Introduce block-scoped variables.</li>
+  <li><a href="EN/05-ES6-2015.md#let-keyword-in-javascript">let Keyword in JavaScript</a>: Declares block-scoped variables that can be reassigned.</li>
+  <li><a href="EN/05-ES6-2015.md#const-keyword-in-javascript">const Keyword in JavaScript</a>: Declares block-scoped constants that cannot be reassigned.</li>
   <li><a href="EN/05-ES6-2015.md#arrow-functions">Arrow Functions</a>: Provide a concise syntax for writing functions.</li>
-  <li><a href="EN/05-ES6-2015.md#object-destructuring">Object and Array Destructuring</a>: Extract values from arrays or properties from objects.</li>
+  <li><a href="EN/05-ES6-2015.md#object-destructuring">Object Destructuring</a>: Extracts properties from objects into variables.</li>
+  <li><a href="EN/05-ES6-2015.md#array-destructuring">Array Destructuring</a>: Extracts elements from arrays into variables.</li>
   <li><a href="EN/05-ES6-2015.md#spread-operator">Spread Operator</a>: Expand elements in an iterable.</li>
   <li><a href="EN/05-ES6-2015.md#forof-loop">For/of Loop</a>: Iterate over iterable objects.</li>
   <li><a href="EN/05-ES6-2015.md#map-object">Map Object</a>: Hold key-value pairs and remember the original insertion order.</li>
@@ -114,9 +122,13 @@ This repository contains a set of learning files about JavaScript and different 
   <li><a href="EN/05-ES6-2015.md#default-parameters-in-functions">Default Parameters in Functions</a>: Set default values for function parameters.</li>
   <li><a href="EN/05-ES6-2015.md#rest-parameter-in-functions">Rest Parameter in Functions</a>: Represent an indefinite number of arguments as an array.</li>
   <li><a href="EN/05-ES6-2015.md#stringincludes-method">String.includes Method</a>: Check if a string contains a substring.</li>
-  <li><a href="EN/05-ES6-2015.md#stringstartswith-method">String.startsWith and endsWith Methods</a>: Determine whether a string starts or ends with certain characters.</li>
-  <li><a href="EN/05-ES6-2015.md#arrayentries-method">Array.entries, from, and keys Methods</a>: Work with arrays in new ways.</li>
-  <li><a href="EN/05-ES6-2015.md#arrayfind-method">Array.find and findIndex Methods</a>: Find the first element or index that satisfies a condition.</li>
+  <li><a href="EN/05-ES6-2015.md#stringstartswith-method">String.startsWith Method</a>: Checks if a string begins with a specified substring.</li>
+  <li><a href="EN/05-ES6-2015.md#stringendswith-method">String.endsWith Method</a>: Checks if a string ends with a specified substring.</li>
+  <li><a href="EN/05-ES6-2015.md#arrayentries-method">Array.entries Method</a>: Returns an iterator with key/value pairs for each array element.</li>
+  <li><a href="EN/05-ES6-2015.md#arrayfrom-method">Array.from Method</a>: Creates a new array from an iterable or array-like object.</li>
+  <li><a href="EN/05-ES6-2015.md#arraykeys-method">Array.keys Method</a>: Returns an iterator for the keys (indexes) of an array.</li>
+  <li><a href="EN/05-ES6-2015.md#arrayfind-method">Array.find Method</a>: Returns the first element that matches a condition.</li>
+  <li><a href="EN/05-ES6-2015.md#arrayfindindex-method">Array.findIndex Method</a>: Returns the index of the first element that matches a condition.</li>
   <li><a href="EN/05-ES6-2015.md#new-math-methods">New Math Methods</a>: Perform mathematical operations.</li>
   <li><a href="EN/05-ES6-2015.md#new-number-features">New Number Features</a>: Work with numbers more effectively.</li>
   <li><a href="EN/05-ES6-2015.md#new-global-methods">New Global Methods</a>: New methods added to global objects.</li>
@@ -196,7 +208,8 @@ This repository contains a set of learning files about JavaScript and different 
 [View File](EN/12-ES13-2022.md)
 
 <ul>
-  <li><a href="EN/12-ES13-2022.md#arrayat-method">Array.at and String.at Methods</a>: Access elements or characters using positive or negative indices.</li>
+  <li><a href="EN/12-ES13-2022.md#arrayat-method">Array.at Method</a>: Accesses an element in an array using a positive or negative index.</li>
+  <li><a href="EN/12-ES13-2022.md#stringat-method">String.at Method</a>: Accesses a character in a string using a positive or negative index.</li>
   <li><a href="EN/12-ES13-2022.md#d-flag-in-regexp">d Flag in RegExp</a>: Provide exact start and end positions of matches.</li>
   <li><a href="EN/12-ES13-2022.md#objecthasown-method">Object.hasOwn Method</a>: Safely check if an object has a specific property.</li>
   <li><a href="EN/12-ES13-2022.md#errorcause-feature">error.cause Feature</a>: Attach detailed information about error causes.</li>

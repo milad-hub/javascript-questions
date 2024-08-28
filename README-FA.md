@@ -75,20 +75,26 @@
 
 موضوعات ES5:
 <ul dir="rtl">
-  <li><a href="FA/04-ES5-2009.md#use-strict-در-جاوا-اسکریپت">"use strict" و مزایای اون</a>: اعمال قواعد سخت‌گیرانه‌تر در جاوا اسکریپت.</li>
+  <li><a href="FA/04-ES5-2009.md#ویژگی-use-strict-در-جاوا-اسکریپت">"use strict" و مزایای اون</a>: اعمال قواعد سخت‌گیرانه‌تر در جاوا اسکریپت.</li>
   <li><a href="FA/04-ES5-2009.md#دسترسی-به-کاراکترهای-رشته-با-استفاده-از-ایندکس">دسترسی به کاراکترهای رشته با استفاده از ایندکس</a>: کار با کاراکترهای رشته مثل آرایه‌ها.</li>
-  <li><a href="FA/04-ES5-2009.md#رشته‌های-چند-خطی">رشته‌های چند خطی</a>: مدیریت رشته‌هایی که در چند خط قرار دارند.</li>
+  <li><a href="FA/04-ES5-2009.md#رشتههای-چند-خطی">رشته‌های چند خطی</a>: مدیریت رشته‌هایی که در چند خط قرار دارند.</li>
   <li><a href="FA/04-ES5-2009.md#استفاده-از-کلمات-رزرو-شده-به-عنوان-نام-ویژگی">استفاده از کلمات رزرو شده به عنوان نام ویژگی</a>: استفاده امن از کلمات رزرو شده به عنوان نام ویژگی‌های اشیاء.</li>
-  <li><a href="FA/04-ES5-2009.md#متد-trim-رشته">متد trim رشته</a>: حذف فاصله‌ها از ابتدا و انتهای رشته.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-stringtrim">متد trim رشته</a>: حذف فاصله‌ها از ابتدا و انتهای رشته.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arrayisarray">متد Array.isArray</a>: بررسی اینکه آیا یک مقدار آرایه است یا نه.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arrayforeach">متد Array.forEach</a>: اجرای یک تابع برای هر عنصر آرایه.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arraymap">متد Array.map</a>: ایجاد یک آرایه جدید با نتایج اجرای یک تابع بر روی هر عنصر آرایه.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arrayfilter">متد Array.filter</a>: ایجاد یک آرایه جدید با عناصری که تست را پاس کرده‌اند.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arrayreduce">متد Array.reduce</a>: اجرای یک تابع کاهش‌دهنده بر روی هر عنصر و ایجاد یک خروجی واحد.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-arrayreduceright">متد Array.reduceRight</a>: کار کردن با آرایه‌ها از انتها به ابتدا برای کاهش یا ترکیب عناصر.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arrayevery">متد Array.every</a>: بررسی اینکه آیا همه عناصر تست را پاس کرده‌اند یا نه.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-arraysome">متد Array.some</a>: بررسی اینکه آیا حداقل یکی از عناصر آرایه یک شرط خاص را برآورده می‌کند.</li>
   <li><a href="FA/04-ES5-2009.md#متد-arrayindexof">متد Array.indexOf</a>: پیدا کردن ایندکس یک عنصر در آرایه.</li>
-  <li><a href="FA/04-ES5-2009.md#متد-jsonparse">متد JSON.parse</a>: تجزیه و تبدیل داده‌های JSON به جاوا اسکریپت.</li>
-  <li><a href="FA/04-ES5-2009.md#متد-datenow">متد Date.now</a>: کار با تاریخ و زمان.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-arraylastindexof">متد Array.lastIndexOf</a>: پیدا کردن آخرین موقعیت یک عنصر مشخص در آرایه.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-jsonparse">متد JSON.parse</a>: تبدیل رشته‌های JSON به شیء‌های جاوااسکریپت.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-jsonstringify">متد JSON.stringify</a>: تبدیل شیء‌های جاوااسکریپت به رشته‌های JSON.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-datenow">متد Date.now</a>: گرفتن زمان فعلی به میلی‌ثانیه از آغاز سال ۱۹۷۰.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-datetoisostring">متد Date.toISOString</a>: تبدیل تاریخ به یک رشته استاندارد ISO.</li>
+  <li><a href="FA/04-ES5-2009.md#متد-datetojson">متد Date.toJSON</a>: تبدیل تاریخ به فرمت JSON.</li>
   <li><a href="FA/04-ES5-2009.md#استفاده-از-getters-و-setters">استفاده از Getters و Setters</a>: کنترل دسترسی به ویژگی‌های اشیاء.</li>
   <li><a href="FA/04-ES5-2009.md#متد-objectdefineproperty">متد Object.defineProperty</a>: تعریف ویژگی جدید بر روی یک شیء.</li>
   <li><a href="FA/04-ES5-2009.md#متد-objectcreate">متد Object.create</a>: ایجاد یک شیء جدید با پروتوتایپ و ویژگی‌های مشخص شده.</li>
@@ -101,17 +107,20 @@
 [مشاهده فایل](FA/05-ES6-2015.md)
 
 <ul dir="rtl">
-  <li><a href="FA/05-ES6-2015.md#کلمه-کلیدی-let-در-جاوا-اسکریپت">کلمه کلیدی let و const</a>: معرفی متغیرهای بلوکی.</li>
+  <li><a href="FA/05-ES6-2015.md#کلمه-کلیدی-let-در-جاوا-اسکریپت">کلمه کلیدی let در جاوا اسکریپت</a>: تعریف متغیر با محدودیت بلوک، برای جلوگیری از مشکلات دامنه متغیر.</li>
+  <li><a href="FA/05-ES6-2015.md#کلمه-کلیدی-const-در-جاوا-اسکریپت">کلمه کلیدی const در جاوا اسکریپت</a>: تعریف متغیرهای ثابت که تغییر نمی‌کنند، مناسب برای مقدارهایی که نباید تغییر کنند.</li>
   <li><a href="FA/05-ES6-2015.md#توابع-پیکانی-arrow-functions">توابع پیکانی (Arrow Functions)</a>: ارائه سینتکس خلاصه‌تری برای نوشتن توابع.</li>
-  <li><a href="FA/05-ES6-2015.md#تخریب-شیء-و-آرایه-object-destructuring">تخریب شیء و آرایه (Destructuring)</a>: استخراج مقادیر از آرایه‌ها یا ویژگی‌های اشیاء.</li>
+  <li><a href="FA/05-ES6-2015.md#تخریب-شیء-object-destructuring">تخریب شیء (Object Destructuring)</a>: به راحتی مقادیر خواسته‌شده را از اشیاء استخراج کنید و در متغیرها ذخیره کنید.</li>
+  <li><a href="FA/05-ES6-2015.md#تخریب-آرایه-array-destructuring">تخریب آرایه (Array Destructuring)</a>: به طور مستقیم عناصر مورد نیاز را از آرایه‌ها بگیرید و در متغیرهای جدا ذخیره کنید.</li>
   <li><a href="FA/05-ES6-2015.md#عملگر-spread">عملگر Spread</a>: گسترش عناصر در یک iterable.</li>
   <li><a href="FA/05-ES6-2015.md#حلقه-forof">حلقه For/of</a>: پیمایش بر روی اشیاء iterable.</li>
-  <li><a href="FA/05-ES6-2015.md#اشیاء-map">شیء Map</a>: نگهداری جفت‌های کلید و مقدار با حفظ ترتیب اصلی ورود.</li>
-  <li><a href="FA/05-ES6-2015.md#اشیاء-set">شیء Set</a>: ذخیره مقادیر یکتا از هر نوع.</li>
-  <li><a href="FA/05-ES6-2015.md#کلاس‌ها-در-جاوا-اسکریپت">کلاس‌ها و استفاده از اون‌ها</a>: فراهم کردن یک الگو برای ایجاد اشیاء.</li>
-  <li><a href="FA/05-ES6-2015.md#وعده‌ها-promises-در-جاوا-اسکریپت">وعده‌ها (Promises)</a>: مدیریت عملیات غیرهمزمان.</li>
+  <li><a href="FA/05-ES6-2015.md#شیء-map">شیء Map</a>: نگهداری جفت‌های کلید و مقدار با حفظ ترتیب اصلی ورود.</li>
+  <li><a href="FA/05-ES6-2015.md#شیء-set">شیء Set</a>: ذخیره مقادیر یکتا از هر نوع.</li>
+  <li><a href="FA/05-ES6-2015.md#کلاسها-در-جاوا-اسکریپت">کلاس‌ها و استفاده از اون‌ها</a>: فراهم کردن یک الگو برای ایجاد اشیاء.</li>
+  <li><a href="FA/05-ES6-2015.md#وعدهها-promises-در-جاوا-اسکریپت">وعده‌ها (Promises)</a>: مدیریت عملیات غیرهمزمان.</li>
   <li><a href="FA/05-ES6-2015.md#نوع-داده-symbol">نوع داده Symbol</a>: ایجاد شناسه‌های یکتا.</li>
-  <li><a href="FA/05-ES6-2015.md#پارامترهای-پیش‌فرض-تو-توابع">پارامترهای پیش‌فرض و Rest</a>: تنظیم مقادیر پیش‌فرض برای پارامترهای توابع.</li>
+  <li><a href="FA/05-ES6-2015.md#پارامترهای-پیشفرض-تو-توابع">پارامترهای پیش‌فرض تو توابع</a>: تنظیم مقادیر پیش‌فرض برای پارامترهای توابع.</li>
+  <li><a href="FA/05-ES6-2015.md#پارامتر-rest-تو-توابع">پارامتر Rest تو توابع</a>: برای دریافت تعداد متغیرهای ناشناخته به عنوان آرایه، مفید برای زمانی که تعداد ورودی‌ها مشخص نیست.</li>
   <li><a href="FA/05-ES6-2015.md#متد-stringincludes">متد String.includes</a>: بررسی اینکه آیا یک رشته شامل زیررشته‌ای است یا نه.</li>
   <li><a href="FA/05-ES6-2015.md#متد-stringstartswith">متد String.startsWith</a>: تعیین اینکه آیا یک رشته با کاراکترهای مشخصی شروع می‌شود یا نه.</li>
   <li><a href="FA/05-ES6-2015.md#متد-stringendswith">متد String.endsWith</a>: تعیین اینکه آیا یک رشته با کاراکترهای مشخصی پایان می‌یابد یا نه.</li>
@@ -120,10 +129,10 @@
   <li><a href="FA/05-ES6-2015.md#متد-arraykeys">متد Array.keys</a>: ایجاد یک شیء iterator جدید که شامل شاخص‌های یک آرایه است.</li>
   <li><a href="FA/05-ES6-2015.md#متد-arrayfind">متد Array.find</a>: پیدا کردن اولین عنصری که تست ارائه شده را پاس می‌کند.</li>
   <li><a href="FA/05-ES6-2015.md#متد-arrayfindindex">متد Array.findIndex</a>: پیدا کردن ایندکس اولین عنصری که تست ارائه شده را پاس می‌کند.</li>
-  <li><a href="FA/05-ES6-2015.md#متدهای-جدید-math">متدهای جدید Math</a>: انجام عملیات ریاضی.</li>
-  <li><a href="FA/05-ES6-2015.md#ویژگی‌های-جدید-number">ویژگی‌های جدید Number</a>: کار با اعداد به شکل موثرتر.</li>
-  <li><a href="FA/05-ES6-2015.md#متدهای-جدید-جهانی">متدهای جدید جهانی</a>: متدهای جدیدی که به اشیاء جهانی اضافه شده‌اند.</li>
-  <li><a href="FA/05-ES6-2015.md#ماژول‌ها-در-جاوا-اسکریپت">ماژول‌ها در جاوا اسکریپت</a>: بازاستفاده کد با وارد کردن و صادر کردن ماژول‌ها.</li>
+  <li><a href="FA/05-ES6-2015.md#متدهای-جدید-ریاضی">متدهای جدید Math</a>: انجام عملیات ریاضی.</li>
+  <li><a href="FA/05-ES6-2015.md#ویژگیهای-جدید-number">ویژگی‌های جدید Number</a>: کار با اعداد به شکل موثرتر.</li>
+  <li><a href="FA/05-ES6-2015.md#متدهای-جدید-global">متدهای جدید Global</a>: متدهای جدیدی که به اشیاء جهانی اضافه شده‌اند.</li>
+  <li><a href="FA/05-ES6-2015.md#ماژولها-در-جاوا-اسکریپت">ماژول‌ها در جاوا اسکریپت</a>: بازاستفاده کد با وارد کردن و صادر کردن ماژول‌ها.</li>
 </ul>
 
 ### مباحث ES7 - 2016
@@ -140,7 +149,8 @@
 
 <ul dir="rtl">
   <li><a href="FA/07-ES8-2017.md#پدینگ-رشته-در-جاوا-اسکریپت">پدینگ رشته (padStart و padEnd)</a>: پر کردن رشته‌ها تا یک طول خاص.</li>
-  <li><a href="FA/07-ES8-2017.md#متد-objectentries-و-objectvalues">متد Object.entries و Object.values</a>: تبدیل اشیاء به آرایه‌های جفت کلید-مقدار یا مقادیر.</li>
+  <li><a href="FA/07-ES8-2017.md#متد-objectentries">متد Object.entries</a>: این متد، جفت کلید-مقدارهای یک آبجکت رو به شکل آرایه درمیاره تا راحت‌تر باهاشون کار کنید.</li>
+  <li><a href="FA/07-ES8-2017.md#متد-objectvalues">متد Object.values</a>: این متد، تمام مقادیر یک آبجکت رو به شکل آرایه برمی‌گردونه، مناسب برای زمانی که فقط به مقادیر نیاز دارید.</li>
   <li><a href="FA/07-ES8-2017.md#سینتکس-asyncawait">سینتکس async/await</a>: نوشتن کدهای غیرهمزمان به شکلی راحت‌تر.</li>
   <li><a href="FA/07-ES8-2017.md#کاماهای-پایانی-در-توابع">کاماهای پایانی در توابع</a>: مدیریت لیست پارامترهای توابع به شکلی ساده‌تر.</li>
   <li><a href="FA/07-ES8-2017.md#متد-objectgetownpropertydescriptors">متد Object.getOwnPropertyDescriptors</a>: دریافت تمام توضیحات ویژگی‌های یک شیء.</li>
@@ -151,10 +161,10 @@
 
 <ul dir="rtl">
   <li><a href="FA/08-ES9-2018.md#حلقه-asynchronous-iteration">حلقه Asynchronous Iteration</a>: پیمایش بر روی منابع داده غیرهمزمان.</li>
-  <li><a href="FA/08-ES9-2018.md#متد-promisefinally">متد Promise.prototype.finally</a>: اجرای یک callback هنگامی که یک promise نهایی می‌شود، بدون توجه به نتیجه.</li>
-  <li><a href="FA/08-ES9-2018.md#ویژگی‌های-object-rest">ویژگی‌های Object Rest</a>: استخراج بخش‌هایی از یک شیء و نگه‌داشتن باقی‌مانده.</li>
-  <li><a href="FA/08-ES9-2018.md#ویژگی‌های-جدید-regexp">ویژگی‌های جدید RegExp</a>: بهبود‌های جدید برای regular expressions.</li>
-  <li><a href="FA/08-ES9-2018.md#حافظه-اشتراکی-در-جاوا-اسکریپت">حافظه اشتراکی در جاوا اسکریپت</a>: به اشتراک گذاری داده‌ها بین thread‌ها یا web worker‌ها به شکلی ایمن.</li>
+  <li><a href="FA/08-ES9-2018.md#متد-promiseprototypefinally">متد Promise.prototype.finally</a>: اجرای یک callback هنگامی که یک promise نهایی می‌شود، بدون توجه به نتیجه.</li>
+  <li><a href="FA/08-ES9-2018.md#ویژگیهای-object-rest">ویژگی‌های Object Rest</a>: استخراج بخش‌هایی از یک شیء و نگه‌داشتن باقی‌مانده.</li>
+  <li><a href="FA/08-ES9-2018.md#ویژگیهای-جدید-regexp">ویژگی‌های جدید RegExp</a>: بهبود‌های جدید برای regular expressions.</li>
+  <li><a href="FA/08-ES9-2018.md#حافظه-اشتراکی-جاوا-اسکریپت">حافظه اشتراکی در جاوا اسکریپت</a>: به اشتراک گذاری داده‌ها بین thread‌ها یا web worker‌ها به شکلی ایمن.</li>
 </ul>
 
 ### مباحث ES10 - 2019
@@ -167,8 +177,8 @@
   <li><a href="FA/09-ES10-2019.md#متدهای-arrayprototypeflat-و-arrayprototypeflatmap">متدهای Array.flat و Array.flatMap</a>: مسطح کردن آرایه‌های تو در تو.</li>
   <li><a href="FA/09-ES10-2019.md#ویژگی-revised-arraysort">ویژگی Revised Array.sort</a>: اطمینان از مرتب‌سازی پایدار آرایه‌ها.</li>
   <li><a href="FA/09-ES10-2019.md#ویژگی-revised-jsonstringify">ویژگی Revised JSON.stringify</a>: همیشه تولید رشته‌های یونیکد معتبر.</li>
-  <li><a href="FA/09-ES10-2019.md#استفاده-از-جداکننده-ها-در-لیترال‌های-رشته">استفاده از جداکننده‌ها در لیترال‌های رشته</a>: JSON را به عنوان یک زیرمجموعه کامل ECMAScript قرار دهید.</li>
-  <li><a href="FA/09-ES10-2019.md#متد-revised-functionprototypetostring">متد Revised Function.prototype.toString</a>: بازگرداندن متن دقیق کد منبع.</li>
+  <li><a href="FA/09-ES10-2019.md#استفاده-از-جداکنندهها-در-رشتههای-متنی">استفاده از جداکننده‌ها در لیترال‌های رشته</a>: JSON را به عنوان یک زیرمجموعه کامل ECMAScript قرار دهید.</li>
+  <li><a href="FA/09-ES10-2019.md#بازبینی-متد-functionprototypetostring">متد Revised Function.prototype.toString</a>: بازگرداندن متن دقیق کد منبع.</li>
 </ul>
 
 ### مباحث ES11 - 2020
@@ -179,8 +189,9 @@
   <li><a href="FA/10-ES11-2020.md#متد-stringprototypematchall">متد String.prototype.matchAll</a>: پیدا کردن تمام مطابقت‌های یک regex در یک رشته.</li>
   <li><a href="FA/10-ES11-2020.md#عملگر-nullish-coalescing">عملگر Nullish Coalescing (??)</a>: فراهم کردن یک مقدار پیش‌فرض فقط برای `null` یا `undefined`.</li>
   <li><a href="FA/10-ES11-2020.md#عملگر-optional-chaining">عملگر Optional Chaining (?.)</a>: دسترسی به ویژگی‌ها به صورت عمیق بدون نگرانی از خطاهای `undefined`.</li>
-  <li><a href="FA/10-ES11-2020.md#عملگر-اختصاصی-and-و-or">عملگرهای تخصیصی AND و OR (&&= و ||=)</a>: تخصیص مقدار به یک متغیر تنها در صورت `true` یا `false` بودن آن.</li>
-  <li><a href="FA/10-ES11-2020.md#عملگر-اختصاصی-nullish-coalescing">عملگر تخصیصی Nullish Coalescing (??=)</a>: تخصیص مقدار به یک متغیر تنها در صورت `null` یا `undefined` بودن آن.</li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-logical-and-assignment">عملگر Logical AND Assignment</a>: اگه شرط برقرار باشه، مقدار میده.</li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-logical-or-assignment">عملگر Logical OR Assignment</a>: اگه مقدار قبلی نادرست باشه، مقدار جدید میده.</li>
+  <li><a href="FA/10-ES11-2020.md#عملگر-nullish-coalescing-assignment">عملگر تخصیصی Nullish Coalescing (??=)</a>: تخصیص مقدار به یک متغیر تنها در صورت `null` یا `undefined` بودن آن.</li>
   <li><a href="FA/10-ES11-2020.md#متد-promiseallsettled">متد Promise.allSettled</a>: منتظر شدن برای تکمیل تمام promises و مدیریت تمام نتایج.</li>
   <li><a href="FA/10-ES11-2020.md#ویژگی-dynamic-import">ویژگی Dynamic Import</a>: بارگذاری ماژول‌ها تنها در زمانی که نیاز است.</li>
 </ul>
@@ -191,20 +202,21 @@
 <ul dir="rtl">
   <li><a href="FA/11-ES12-2021.md#متد-promiseany">متد Promise.any</a>: دریافت اولین promise که با موفقیت به نتیجه می‌رسد از بین چندین promise.</li>
   <li><a href="FA/11-ES12-2021.md#متد-replaceall">متد replaceAll</a>: جایگزینی همه وقوعات یک کلمه یا عبارت در یک رشته.</li>
-  <li><a href="FA/11-ES12-2021.md#جداکننده‌های-عددی-">جداکننده‌های عددی (`_`)</a>: بهبود خوانایی اعداد بزرگ.</li>
+  <li><a href="FA/11-ES12-2021.md#جداکنندههای-عددی">جداکننده‌های عددی (`_`)</a>: بهبود خوانایی اعداد بزرگ.</li>
 </ul>
 
 ### مباحث ES13 - 2022
 [مشاهده فایل](FA/12-ES13-2022.md)
 
 <ul dir="rtl">
-  <li><a href="FA/12-ES13-2022.md#متد-arrayat-و-stringat">متد Array.at و String.at</a>: دسترسی به عناصر یا کاراکترها با استفاده از شاخص‌های مثبت یا منفی.</li>
+  <li><a href="FA/12-ES13-2022.md#متد-arrayat">متد Array.at</a>: دسترسی به عناصر آرایه با استفاده از اندیس منفی یا مثبت.</li>
+  <li><a href="FA/12-ES13-2022.md#متد-stringat">متد String.at</a>: انتخاب کاراکتر خاص از رشته با استفاده از اندیس مثبت یا منفی.</li>
   <li><a href="FA/12-ES13-2022.md#فلگ-d-در-regexp">فلگ d در RegExp</a>: ارائه موقعیت‌های دقیق شروع و پایان مطابقت‌ها.</li>
   <li><a href="FA/12-ES13-2022.md#متد-objecthasown">متد Object.hasOwn</a>: به صورت ایمن بررسی کنید که آیا یک شیء دارای ویژگی خاصی است یا نه.</li>
   <li><a href="FA/12-ES13-2022.md#ویژگی-errorcause">ویژگی error.cause</a>: افزودن اطلاعات دقیق درباره علت خطاها.</li>
   <li><a href="FA/12-ES13-2022.md#ویژگی-await-import">ویژگی await import</a>: وارد کردن پویا ماژول‌ها با استفاده از `await`.</li>
   <li><a href="FA/12-ES13-2022.md#اعلان-فیلدهای-کلاس">اعلان فیلدهای کلاس</a>: اعلام متغیرهای کلاس به صورت مستقیم داخل کلاس.</li>
-  <li><a href="FA/12-ES13-2022.md#متدها-و-فیلدهای-خصوصی-در-کلاس‌ها">متدها و فیلدهای خصوصی در کلاس‌ها</a>: حفاظت از کد داخلی در برابر دسترسی خارجی.</li>
+  <li><a href="FA/12-ES13-2022.md#متدها-و-فیلدهای-خصوصی-در-کلاسها">متدها و فیلدهای خصوصی در کلاس‌ها</a>: حفاظت از کد داخلی در برابر دسترسی خارجی.</li>
 </ul>
 
 ### مباحث ES14 - 2023
@@ -214,10 +226,10 @@
   <li><a href="FA/13-ES14-2023.md#متد-arrayfindlast">متد Array.findLast</a>: پیدا کردن آخرین عنصری که یک شرط را برآورده می‌کند.</li>
   <li><a href="FA/13-ES14-2023.md#متد-arrayfindlastindex">متد Array.findLastIndex</a>: پیدا کردن ایندکس آخرین عنصری که یک شرط را برآورده می‌کند.</li>
   <li><a href="FA/13-ES14-2023.md#متد-arraytoreversed">متد Array.toReversed</a>: بازگرداندن یک نسخه معکوس از آرایه بدون تغییر دادن نسخه اصلی.</li>
-  <li><a href="FA/13-ES14-2023.md#متد-arraysort">متد Array.sort</a>: بازگرداندن یک نسخه مرتب شده از آرایه بدون تغییر دادن نسخه اصلی.</li>
-  <li><a href="FA/13-ES14-2023.md#متد-arraysplice">متد Array.splice</a>: بازگرداندن یک نسخه اصلاح شده از آرایه بدون تغییر دادن نسخه اصلی.</li>
+  <li><a href="FA/13-ES14-2023.md#متد-arraytosorted">متد Array.toSorted</a>: بازگرداندن یک نسخه مرتب شده از آرایه بدون تغییر دادن نسخه اصلی.</li>
+  <li><a href="FA/13-ES14-2023.md#متد-arraytospliced">متد Array.toSpliced</a>: بازگرداندن یک نسخه اصلاح شده از آرایه بدون تغییر دادن نسخه اصلی.</li>
   <li><a href="FA/13-ES14-2023.md#متد-arraywith">متد Array.with</a>: بازگرداندن یک آرایه جدید با عناصر مشخص جایگزین شده.</li>
-  <li><a href="FA/13-ES14-2023.md#ویژگی-shebang">ویژگی Shebang (#!)</a>: مشخص کردن مفسری برای اجرای یک فایل اسکریپت در محیط
+  <li><a href="FA/13-ES14-2023.md#ویژگی--shebang">ویژگی Shebang (#!)</a>: مشخص کردن مفسری برای اجرای یک فایل اسکریپت در محیط
 
 ‌های Unix/Linux.</li>
 </ul>
@@ -228,8 +240,8 @@
 <ul dir="rtl">
   <li><a href="FA/14-ES15-2024.md#متد-objectgroupby">متد Object.groupBy</a>: گروه‌بندی عناصر یک آرایه از اشیاء بر اساس نتیجه یک تابع callback.</li>
   <li><a href="FA/14-ES15-2024.md#متد-mapgroupby">متد Map.groupBy</a>: مشابه `Object.groupBy` اما یک `Map` بازمی‌گرداند که برای انعطاف‌پذیری بیشتر در انواع کلیدها مفید است.</li>
-  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplaindate">ویژگی‌های Temporal.PlainDate</a>: مدیریت تاریخ‌ها بدون اطلاعات زمانی، ایده‌آل برای محاسبات تقویمی.</li>
-  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplaintime">ویژگی‌های Temporal.PlainTime</a>: مدیریت زمان‌ها بدون تاریخ‌ها، مناسب برای نمایش زمان‌ها در روز با دقت بالا.</li>
-  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplainmonthday">ویژگی‌های Temporal.PlainMonthDay</a>: مدیریت تاریخ‌های تکراری مانند تولدها و سالگردها بدون ارتباط با یک سال.</li>
-  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplainyearmonth">ویژگی‌های Temporal.PlainYearMonth</a>: مدیریت ترکیب‌های سال-ماه، مناسب برای تاریخ‌های مالی و گزارش‌های ماهانه.</li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplaindate">ویژگی Temporal.PlainDate</a>: مدیریت تاریخ‌ها بدون اطلاعات زمانی، ایده‌آل برای محاسبات تقویمی.</li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplaintime">ویژگی Temporal.PlainTime</a>: مدیریت زمان‌ها بدون تاریخ‌ها، مناسب برای نمایش زمان‌ها در روز با دقت بالا.</li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplainmonthday">ویژگی Temporal.PlainMonthDay</a>: مدیریت تاریخ‌های تکراری مانند تولدها و سالگردها بدون ارتباط با یک سال.</li>
+  <li><a href="FA/14-ES15-2024.md#ویژگی-temporalplainyearmonth">ویژگی Temporal.PlainYearMonth</a>: مدیریت ترکیب‌های سال-ماه، مناسب برای تاریخ‌های مالی و گزارش‌های ماهانه.</li>
 </ul>
